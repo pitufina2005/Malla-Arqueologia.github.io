@@ -43,3 +43,17 @@ h1 {
     text-decoration: line-through;
     background-color: #f2a3c1;
 }
+```css
+#grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.semester {
+    min-width: 250px;
+    flex: 0 0 auto;
+}
+```
